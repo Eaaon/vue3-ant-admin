@@ -15,6 +15,7 @@
     "noEmit": true,
     "types": ["vite/client", "unplugin-vue-define-options/macros-global"],
     "paths": {
+      "@": ["src"],
       "/@/*": ["src/*"],
       "/#/*": ["types/*"],
       "@/*": ["src/*"],
